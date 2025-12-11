@@ -11,7 +11,7 @@ app.use(express.json());
 const profile = {
   name: "P. Vydeesh",
   roll: "ME25B144",
-  about: "I'm Vydeesh (ME25B144)... love discovering things.",
+  about: "I'm Vydeesh (ME25B144),Passionate about tech ,sports and learning new things.I enjoy challenging myself with new skills and exploring innovative projects.",
   email: "me25b144@smail.iitm.ac.in"
 };
 
@@ -27,11 +27,11 @@ const aspirations = [
   "Travel",
   "Blockchain",
   "Innovative tech projects",
-  "Badminton 🏸"
+  "Pro Badminton player"
 ];
 
 const skills = [
-  "JavaScript",
+  "JavaScript + Python",
   "HTML + CSS",
   "Node.js Basics",
   "Tech Exploration",
@@ -63,3 +63,4 @@ app.use((req, res) => {
 
 // Start server
 app.listen(PORT, () => console.log(`API running on port ${PORT}`));
+
